@@ -1,0 +1,19 @@
+github notes
+
+pull -- fetches then merges/downloads
+
+fetch -- takes all branches from master line
+
+merge -- puts in on your computer
+
+remote -- means always online or to different machine than yours
+
+commit --- makes a branch from master
+
+push -- makes the branch that you committed go into master(final action)
+
+always pull(save/download) before pushing to master line
+
+fork -- puts one entire database from one remote location to another location (one github account to 
+	another)
+

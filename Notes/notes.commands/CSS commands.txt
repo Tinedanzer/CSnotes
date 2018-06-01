@@ -1,0 +1,57 @@
+Css formating terms
+
+block/inline - force attributes to go around it; block creats bigger bloxes, inline creates more lines
+
+float - floats things to the left or right of the screen; and to make them line up next to each other.
+
+	- <div class="clearix">
+
+To fix floats:
+needs to be memorized
+*************************
+
+.clearfix::after {
+content: ""'
+display: block;
+clear: both;
+}
+***********************
+
+margin-left: moves text from left side of the screen
+float: left/right
+background
+color
+border-color: 
+overflow: auto
+clear: both
+width: 33% 50% etc, or 30px
+padding: space from top of border
+border
+text-align: center
+
+top right bottom left
+
+static positioning -by default-- not dynamic, doesnt scroll w/ page
+relative positioning - 
+absolute positioning - independent of other things around it; wont move, but 
+	also wont scroll when page scrolls
+fixed positioning - stays there, goes with scrolling
+position: relative or absolute or relative or fixed (for commands)
+
+position:absolute;
+z-index:1;
+
+z-index is on the xyz axis; z being the depth controller.
+
+display:none to hide things
+
+
+<link rel="stylesheet" href="reset.css">   - needs to be put before linking the css file
+
+reset.css files will reset the default browsers standard codes on websites
+put before href css.css file otherwise it'll clear all css
+
+&lt;div&gt;   - used to right out DIV because normally DIV would be recognized as a command,
+	but this allows Div to be written in between &lt; &gt;
+
+<div id="absolute"> == $0 ; positioned relative to the parent(look up)

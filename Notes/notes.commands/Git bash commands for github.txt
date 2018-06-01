@@ -1,0 +1,17 @@
+Git bash commands for Github
+
+git clone -- copies an entire repository(repo)
+
+git add -- (only local) adds a file for inclusion in Git.
+
+git commit -- (only local) notes a change in remote
+git commit -m "message"  --  to commit to  external server
+
+git push -- 
+
+git pull -- 
+
+git status -- what is in my staging area(index) and my unstaged area 
+
+	unstaged area -- not in the database(index) yet... must get add the files.
+		then you must commit after adding, ensures a snapshot and better recovery of files.
